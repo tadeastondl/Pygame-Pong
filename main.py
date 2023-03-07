@@ -2,7 +2,7 @@ import pygame
 from paddle import Paddle
 
 pygame.init()
-
+#barvicky
 BLACK = (0,0,0)
 WHITE = (255,255,255)
 RED = (255,0,0)
@@ -12,7 +12,7 @@ GREEN = (0,255,0)
 # okno aplikace
 size = (700, 500)
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("Turbo crazy Pong hra")
+pygame.display.set_caption("Turbo crazy Pong hra s originalne vytvorenou ikonkou a barvama")
 
 paddleA = Paddle(RED, 10, 100)
 paddleA.rect.x = 20
@@ -22,7 +22,7 @@ paddleB = Paddle(BLUE, 10, 100)
 paddleB.rect.x = 670
 paddleB.rect.y = 200
 
-pygame_icon = pygame.image.load('res/stefo.png')
+pygame_icon = pygame.image.load('res/Icon.png')
 pygame.display.set_icon(pygame_icon)
 
 #list spritu
