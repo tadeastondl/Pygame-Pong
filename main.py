@@ -32,7 +32,7 @@ class Pong:
         sizeHeight = 500
         size = (sizeWidth, sizeHeight)
         screen = pygame.display.set_mode(size)
-        pygame.display.set_caption("Muj Pong  >:)")
+        pygame.display.set_caption("Pygame-Pong")
 
         paddleA = Paddle(Pong.RED, 15, 115)
         paddleA.rect.x = 20
